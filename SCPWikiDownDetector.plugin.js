@@ -1,8 +1,10 @@
 /**
  * @name SCPWikiDownDetector
- * @author danjon56
- * @description Adds a toolbar button to manually check scp-wiki.wikidot.com status and view local status history.
  * @version 1.0.0
+ * @author Danjon56
+ * @authorId 1330673713359618079
+ * @source https://github.com/sixeightyfour/betterdiscord-wikidot-down-bot/blob/main/SCPWikiDownDetector.plugin.js
+ * @description Adds a toolbar button to manually check scp-wiki.wikidot.com status and view local status history.
  */
 
 module.exports = class SCPWikiDownDetector {
@@ -50,7 +52,7 @@ module.exports = class SCPWikiDownDetector {
     }
 
     getAuthor() {
-        return "YourName";
+        return "Danjon56";
     }
 
     getDescription() {
@@ -58,7 +60,7 @@ module.exports = class SCPWikiDownDetector {
     }
 
     getVersion() {
-        return "2.0.0";
+        return "1.0.0";
     }
 
     load() {
